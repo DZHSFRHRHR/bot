@@ -27,7 +27,7 @@ from telegram.ext import (
 # Put the NEW token issued by @BotFather here. Do not use an exposed/revoked token.
 TOKEN = "8641691193:AAEZQAUUzMEA6PvU5sayAFlHimQ2yB3nSc4"
 OWNER_ID = 7665891917
-API_URL = os.getenv("LOCAL_BOT_API_URL", "http://api:8081").rstrip("/")
+API_URL = "https://api.telegram.org"
 SHARED = Path(os.getenv("SHARED_DIR", "/shared"))
 # Telegram Local Bot API upload limit: 2000 MB. Leave margin for each part.
 PART_BYTES = 1_900_000_000
